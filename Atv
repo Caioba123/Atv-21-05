@@ -72,10 +72,76 @@ public class Retangulo {
 
 3 Quesito
 
+public class Aluno {
+    public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+
+        System.out.println("Ola, Bom Dia");
+        System.out.println("Digite o seu nome:");
+        String nome1 = tec.nextLine();
+
+        System.out.println("Digite a sua matricula:");
+        int matricula1 = tec.nextInt();
+
+        System.out.println("Digite a sua primeira nota:");
+        int nota1 = tec.nextInt();
+        System.out.println("Digite a sua segunda nota:");
+        int nota2 = tec.nextInt();
+        System.out.println("Digite a sua terceira nota:");
+        int nota3 = tec.nextInt();
+        System.out.println("Digite a sua quarta nota:");
+        int nota4 = tec.nextInt();
+
+        int media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+        System.out.println("Nome: " + nome1);
+        System.out.println("Matricula: " + matricula1);
+        System.out.println("Nota 1: " + nota1);
+        System.out.println("Nota 2: " + nota2);
+        System.out.println("Nota 3: " + nota3);
+        System.out.println("Nota 4: " + nota4);
+        System.out.println("Media: " + media);
+
+        if (media >= 6) {
+            System.out.println("Aprovado");
+        } else {
+            System.out.println("Recuperacao");
+        }
+    }
+}
 
 
 4 Quesito
 
+public class Consultas {
+     public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+
+        System.out.println("Ola, Bom Dia");
+        System.out.println("Coloque o seu nome");
+        String nome;
+        nome = tec.nextInt;
+        
+        System.out.println("Coloque a sua idade");
+        int idade = tec.nexInt();
+        
+        System.out.println("Voce deseja ver a sua consulta? se sim digite 1 e se nao 2");
+        int consulta = tec.nexInt();
+        
+        System.out.println("Digite o dia da consulta");
+        int dia = tec.nexInt();
+        
+        if (consulta == 1)
+            System.out.println("Consulta agendada para o dia: " + dia);
+        } else {   
+            System.out.println("Consulta nao visualizada");
+        }
+        
+        
+
+     
+     }
+ }   
 
 
 5 Quesito
