@@ -1,0 +1,81 @@
+1 Quesito
+
+public class Circulo {
+     public static void main(String[] args) {
+		Scanner tec = new Scanner(System.in);
+                
+                System.out.println("Ola, Bom Dia");
+                System.out.println("Coloque o valor do diametro");
+                int diametro = tec.nextInt();
+                
+                double raio = diametro / 2;
+                
+                double area = 3.14 * (raio * raio);
+                double perimetro = 2 * 3.14 * raio;
+                
+                System.out.println("O raio do quadrado e equivlente a " + raio );
+                System.out.println("O raio do quadrado e equivlente a " + raio );
+                System.out.println("O raio do quadrado e equivlente a " + perimetro );
+    }            
+}
+
+2 Quesito
+
+public class Retangulo {
+    public static void main(String[] args) {
+		Scanner tec = new Scanner(System.in);
+                
+                System.out.println("Ola, Bom Dia");
+                System.out.println("Digite o valor da largura");
+                int largura = tec.nextInt();
+                System.out.println("Largura : " + largura);
+                
+                
+                System.out.println("Digite o valor da altura");
+                int altura = tec.nextInt();
+                System.out.println("Altura : " + altura);
+                
+                
+                
+                System.out.println("Digite o valor da altura");
+                int base = largura * altura;
+                
+                System.out.println("Qual sera  valor do resultado ?");
+                int resultado = base * (altura / 2);
+          
+                System.out.println("O valor do resultado sera: " + resultado);
+                
+                System.out.println("----------------------------------------");
+                
+                System.out.println("Digite o valor do lado 1");
+                int lado1 = tec.nextInt();
+                System.out.println("Lado 1 : " + lado1);
+                
+                System.out.println("Digite o valor do lado 2");
+                int lado2 = tec.nextInt();
+                System.out.println("Lado 2 : " + lado2);
+                
+                System.out.println("Digite o valor do lado 3");
+                int lado3 = tec.nextInt();
+                System.out.println("Lado 3 : " + lado3);
+                
+                System.out.println("Digite o valor do lado 4");
+                int lado4 = tec.nextInt();
+                System.out.println("Lado 4 : " + lado4);
+                
+                System.out.println("Qual sera o resultado do perimetro?");
+                int resultado2 = lado1 + lado2 + lado3 + lado4;
+                
+                System.out.println("O valor do perimetro sera de: " + resultado2);
+   }
+ }
+
+3 Quesito
+
+
+
+4 Quesito
+
+
+
+5 Quesito
